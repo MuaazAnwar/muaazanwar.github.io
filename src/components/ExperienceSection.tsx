@@ -23,7 +23,7 @@ const ExperienceSection = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-6">
-          <Card className="experience-card">
+          <Card className="experience-card hover:scale-105 transition-all duration-300">
             <div className="flex items-start gap-4">
               <div className="mt-1 bg-primary/10 p-3 rounded-full">
                 <Briefcase size={20} className="text-primary" />
@@ -55,7 +55,7 @@ const ExperienceSection = () => {
             </div>
           </Card>
 
-          <Card className="experience-card">
+          <Card className="experience-card hover:scale-105 transition-all duration-300">
             <div className="flex items-start gap-4">
               <div className="mt-1 bg-primary/10 p-3 rounded-full">
                 <Briefcase size={20} className="text-primary" />

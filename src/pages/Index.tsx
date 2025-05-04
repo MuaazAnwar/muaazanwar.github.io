@@ -13,10 +13,18 @@ const Index = () => {
       <Header />
       <main className="flex-grow">
         <HeroSection />
-        <ExperienceSection />
-        <SkillsSection />
-        <EducationSection />
-        <ContactSection />
+        <div className="animate-fade-in" style={{ animationDelay: '0.3s' }}>
+          <ExperienceSection />
+        </div>
+        <div className="animate-fade-in" style={{ animationDelay: '0.5s' }}>
+          <SkillsSection />
+        </div>
+        <div className="animate-fade-in" style={{ animationDelay: '0.7s' }}>
+          <EducationSection />
+        </div>
+        <div className="animate-fade-in" style={{ animationDelay: '0.9s' }}>
+          <ContactSection />
+        </div>
       </main>
       <Footer />
     </div>

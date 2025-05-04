@@ -52,13 +52,10 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <div className="mt-16 md:mt-32 text-center">
+        <div className="mt-16 md:mt-32 text-center animate-fade-in" style={{ animationDelay: '1.2s' }}>
           <h2 className="text-xl md:text-2xl font-medium mb-8">Previously worked with</h2>
           <div className="flex flex-wrap justify-center gap-8 md:gap-16 opacity-70">
             <div className="text-xl font-bold">Techlogix</div>
-            <div className="text-xl font-bold">Neo4j</div>
-            <div className="text-xl font-bold">AWS</div>
-            <div className="text-xl font-bold">Docker</div>
           </div>
         </div>
       </div>

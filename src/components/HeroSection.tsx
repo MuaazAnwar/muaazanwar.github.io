@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -11,7 +10,7 @@ const HeroSection = () => {
           <div className="flex-1 space-y-6">
             <div className="space-y-2">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-                <span className="text-primary block animate-fade-in" style={{ animationDelay: '0.2s' }}>Uzair Shafi</span>
+                <span className="text-primary block animate-fade-in" style={{ animationDelay: '0.2s' }}>Muaaz Anwar</span>
                 <span className="block animate-fade-in" style={{ animationDelay: '0.4s' }}>Senior Software Engineer</span>
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground animate-fade-in" style={{ animationDelay: '0.6s' }}>
@@ -42,7 +41,7 @@ const HeroSection = () => {
           <div className="flex-1 relative max-w-md mx-auto md:mx-0 animate-fade-in" style={{ animationDelay: '0.6s' }}>
             <div className="aspect-square bg-gradient-to-br from-primary/20 to-primary/5 rounded-full flex items-center justify-center">
               <div className="w-[90%] h-[90%] rounded-full bg-card shadow-lg flex items-center justify-center">
-                <div className="text-6xl font-bold text-primary">US</div>
+                <div className="text-6xl font-bold text-primary">MA</div>
               </div>
             </div>
             <div className="absolute -bottom-4 -right-4 bg-card rounded-lg shadow-lg p-4 text-sm">

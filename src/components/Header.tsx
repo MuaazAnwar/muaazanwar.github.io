@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
@@ -25,7 +24,7 @@ const Header = () => {
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-background/80 backdrop-blur-sm shadow-sm' : 'bg-transparent'}`}>
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
-          <Link to="/" className="text-xl font-bold text-primary">Uzair Shafi</Link>
+          <Link to="/" className="text-xl font-bold text-primary">Muaaz Anwar</Link>
           
           {/* Desktop Navigation */}
           <nav className="hidden md:flex gap-6 items-center">
@@ -34,7 +33,7 @@ const Header = () => {
             <Link to="/skills" className="nav-link">Skills</Link>
             <Link to="/education" className="nav-link">Education</Link>
             <Link to="/contact" className="nav-link">Contact</Link>
-            <Button variant="outline" className="ml-2">Resume</Button>
+            {/* <Button variant="outline" className="ml-2">Resume</Button> */}
           </nav>
 
           {/* Mobile Menu Button */}
@@ -56,7 +55,7 @@ const Header = () => {
             <Link to="/skills" className="nav-link">Skills</Link>
             <Link to="/education" className="nav-link">Education</Link>
             <Link to="/contact" className="nav-link">Contact</Link>
-            <Button variant="outline" className="mt-2 w-full">Resume</Button>
+            {/* <Button variant="outline" className="mt-2 w-full">Resume</Button> */}
           </nav>
         )}
       </div>

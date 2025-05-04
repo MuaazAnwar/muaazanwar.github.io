@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -65,7 +64,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-medium">Email</h3>
-                    <p className="text-sm text-muted-foreground">contact@uzairshafi.dev</p>
+                    <p className="text-sm text-muted-foreground">muaazanwar28@gmail.com</p>
                   </div>
                 </div>
               </Card>
@@ -77,7 +76,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-medium">Phone</h3>
-                    <p className="text-sm text-muted-foreground">+92 301 123 4567</p>
+                    <p className="text-sm text-muted-foreground">+92312227220</p>
                   </div>
                 </div>
               </Card>
@@ -97,10 +96,10 @@ const Contact = () => {
               <h2 className="text-xl font-semibold mb-4 mt-8">Connect With Me</h2>
               
               <div className="flex gap-4">
-                <a href="#" className="p-3 bg-background rounded-full hover:bg-primary/10 transition-colors" aria-label="GitHub">
+                <a href="https://github.com/MuaazAnwar" className="p-3 bg-background rounded-full hover:bg-primary/10 transition-colors" aria-label="GitHub">
                   <Github size={20} />
                 </a>
-                <a href="#" className="p-3 bg-background rounded-full hover:bg-primary/10 transition-colors" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/in/muaaz-anwar" className="p-3 bg-background rounded-full hover:bg-primary/10 transition-colors" aria-label="LinkedIn">
                   <Linkedin size={20} />
                 </a>
                 <a href="#" className="p-3 bg-background rounded-full hover:bg-primary/10 transition-colors" aria-label="Twitter">

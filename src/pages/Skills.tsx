@@ -1,4 +1,3 @@
-
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -151,7 +150,6 @@ const Skills = () => {
                       <div className="skill-badge flex justify-center">CloudWatch</div>
                       <div className="skill-badge flex justify-center">EC2</div>
                       <div className="skill-badge flex justify-center">Lambda</div>
-                      <div className="skill-badge flex justify-center">Neptune</div>
                       <div className="skill-badge flex justify-center">RDS</div>
                       <div className="skill-badge flex justify-center">Kinesis</div>
                     </div>

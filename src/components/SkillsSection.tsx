@@ -38,7 +38,6 @@ const SkillsSection = () => {
                   <div className="skill-badge flex justify-center">JavaScript</div>
                   <div className="skill-badge flex justify-center">Java</div>
                   <div className="skill-badge flex justify-center">TypeScript</div>
-                  <div className="skill-badge flex justify-center">.NET</div>
                 </div>
               </CardContent>
             </Card>
@@ -50,6 +49,7 @@ const SkillsSection = () => {
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
                   <div className="skill-badge flex justify-center">PostgreSQL</div>
                   <div className="skill-badge flex justify-center">Neo4j</div>
+                  <div className="skill-badge flex justify-center">Neptune</div>
                   <div className="skill-badge flex justify-center">Redis</div>
                   <div className="skill-badge flex justify-center">ElasticSearch</div>
                   <div className="skill-badge flex justify-center">Oracle SQL</div>
@@ -63,12 +63,10 @@ const SkillsSection = () => {
               <CardContent className="pt-6">
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
                   <div className="skill-badge flex justify-center">AWS</div>
-                  <div className="skill-badge flex justify-center">Neptune</div>
                   <div className="skill-badge flex justify-center">Docker</div>
                   <div className="skill-badge flex justify-center">Kubernetes</div>
-                  <div className="skill-badge flex justify-center">MCP Servers</div>
+                  <div className="skill-badge flex justify-center">Grafana</div>
                   <div className="skill-badge flex justify-center">Prometheus</div>
-                  <div className="skill-badge flex justify-center">Claude Code</div>
                 </div>
               </CardContent>
             </Card>
@@ -82,7 +80,8 @@ const SkillsSection = () => {
                   <div className="skill-badge flex justify-center">Angular</div>
                   <div className="skill-badge flex justify-center">Ionic</div>
                   <div className="skill-badge flex justify-center">.NET Framework</div>
-                  <div className="skill-badge flex justify-center">Grafana</div>
+                  <div className="skill-badge flex justify-center">MCP Servers</div>
+                  <div className="skill-badge flex justify-center">Claude Code</div>
                 </div>
               </CardContent>
             </Card>
